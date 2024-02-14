@@ -16,6 +16,7 @@ int main(void)
 	int i = 0;
 
 	char A[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+
 	while (A[i] != '\0')
 	{
 		putchar(A[i]);
