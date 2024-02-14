@@ -1,0 +1,10 @@
+#!/bin/bash
+
+/**
+*Author J.Kawino
+*Script that runs a c file through
+*the preprocesser and writes the
+*result into another file
+**/
+
+gcc -E $CFILE > c
