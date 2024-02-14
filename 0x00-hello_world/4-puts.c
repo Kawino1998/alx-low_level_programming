@@ -1,12 +1,19 @@
+/*
+ * File: 4-puts.c
+ * Auth: JKawino
+ */
+
 #include <stdio.h>
 
 /**
- * Author: JKawino
+ * main - Prints "Programming is like building a multilingual
+ *                puzzle, followed by a new line.
  *
- * Prints string to std output.
+ * Return: Always 0.
  */
-
 int main()
 {
     puts("\"Programming is like building a multilingual puzzle");
+
+    return (0);
 }
