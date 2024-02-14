@@ -1,15 +1,18 @@
+/*
+ * File: 4-puts.c
+ * Auth: JKawino
+ */
+
 #include <stdio.h>
 
 /**
- * Author: JKawinoi
- * main - Entry point
- * Prints string to std output.
+ * main - Prints string to stdoutput
+ *
+ * Return: Always 0.
  */
 
 int main(void)
 {
 	printf("with proper grammar, but the outcome is a piece of art,\n");
-
-	/*Return: Always 0 (Success)*/
 	return (0);
 }
