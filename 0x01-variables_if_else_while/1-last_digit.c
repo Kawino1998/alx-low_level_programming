@@ -1,5 +1,5 @@
 /*
- * File: 0-positive_or_negative
+ * File: 1-last_digit.c
  * Auth: JKawino
  */
 
@@ -8,7 +8,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints string to stdoutput
+ * main - Checks the last digit of a number
  *
  * Return: Always 0.
  */
