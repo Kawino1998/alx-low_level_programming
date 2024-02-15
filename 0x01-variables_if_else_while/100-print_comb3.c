@@ -16,24 +16,24 @@
 int main(void)
 {
 	int n = 0;
-	
+
 	int i;
 
 	int j = 49;
 
-	for (i = 0; i<= 57; i++)
+	for (i = 0; i <= 57; i++)
 	{
-		for(j = n + j; j<= 57; j++)
+		for(j = n + j; j <= 57; j++)
 		{
 			putchar(i);
 			putchar(j);
-			if ((i != 56) || (j != 57))
+			if ( (i != 56) || (j != 57) )
 			{
 				putchar(',');
 				putchar(' ');
 			}
 		}
-		j=49;
+		j = 49;
 		n++;
 	}
 	putchar('\n');
