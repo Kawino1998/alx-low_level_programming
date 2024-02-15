@@ -23,11 +23,11 @@ int main(void)
 
 	for (i = 0; i <= 57; i++)
 	{
-		for(j = n + j; j <= 57; j++)
+		for (j = n + j; j <= 57; j++)
 		{
 			putchar(i);
 			putchar(j);
-			if ( (i != 56) || (j != 57) )
+			if ((i != 56) || (j != 57))
 			{
 				putchar(',');
 				putchar(' ');
