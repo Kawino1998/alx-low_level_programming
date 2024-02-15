@@ -1,5 +1,5 @@
 /*
- * File: 7-print_tebahpla.c 
+ * File: 7-print_tebahpla.c
  * Auth: JKawino
  */
 
