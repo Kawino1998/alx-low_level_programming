@@ -1,12 +1,12 @@
 /*
- * File: 
+ * File: 7-print_tebahpla.c 
  * Auth: JKawino
  */
 
 #include <stdio.h>
 
 /**
- * main - Prints alphabet in lower case
+ * main - Prints alphabet in lower case in reverse
  *
  * Return: Always 0.
  */
