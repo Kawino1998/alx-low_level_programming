@@ -16,15 +16,14 @@
 int main(void)
 {
 	int n = 0;
-
-	int i = 48;
+	
+	int i;
 
 	int j = 49;
 
-	for (i; i<= 57; i++)
+	for (i = 0; i<= 57; i++)
 	{
-		j = n + j;
-		for(j; j<= 57; j++)
+		for(j = n + j; j<= 57; j++)
 		{
 			putchar(i);
 			putchar(j);
