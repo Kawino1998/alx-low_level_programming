@@ -6,7 +6,7 @@
 #include <stdio.h>
 
 /**
- * main - Prints string to stdoutput
+ * main - Prints alphabet in lower an uppercase
  *
  * Return: Always 0.
  */
