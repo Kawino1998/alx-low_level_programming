@@ -13,19 +13,18 @@
 
 int main(void)
 {
-	int i = 48;
+	int n = 48;
 
-	while (i <= 57)
+	while (n < 58)
 	{
-		if (i == 57)
+		putchar(n);
+		if (n < 57)
 		{
-			putchar(i);
-			break;
+			putchar(44);
+			putchar(32);
 		}
-		putchar(i);
-		putchar(',');
-		putchar(' ');
-		i++;
+		n++;
 	}
+	putchar('\n');
 	return (0);
 }
