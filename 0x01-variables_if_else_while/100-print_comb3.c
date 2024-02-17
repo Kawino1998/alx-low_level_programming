@@ -21,7 +21,7 @@ int main(void)
 
 	int j = 49;
 
-	for (i = 0; i < 58; i++)
+	for (i = 48; i < 58; i++)
 	{
 		for (j = n + j; j < 58; j++)
 		{
