@@ -8,7 +8,7 @@
 /**
  * _islower -  Checks for occurence of lowercase char
  *
- * Return 1 if an occurence.
+ * Return 1 if c is lower.
  * Otherwise Return 0.
  */
 
