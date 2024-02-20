@@ -27,19 +27,19 @@ void times_table(void)
 			n = i * j;
 			if (n > 9)
 			{
-				putchar((n/10) + 48);
-				putchar((n%10) + 48);
+				_putchar((n/10) + 48);
+				_putchar((n%10) + 48);
 			}
 			else
 			{
-				putchar(n + 48);
+				_putchar(n + 48);
 			}
 			if (j < 9)
 			{
-				putchar(',');
-				putchar(' ');
+				_putchar(',');
+				_putchar(' ');
 			}
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
