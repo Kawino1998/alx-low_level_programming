@@ -7,7 +7,7 @@
 
 /**
  * print_last_digit - Prints the last digit of a number
- *
+ *@i: digit to find the last place of
  * Returns the value of the last digit
  *
  */
