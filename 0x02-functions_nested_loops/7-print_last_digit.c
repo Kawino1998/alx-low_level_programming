@@ -14,8 +14,6 @@
 
 int print_last_digit(int i)
 {
-	int i = 0;
-
 	if (i < 0)
 	{
 		i = -1 * i;
