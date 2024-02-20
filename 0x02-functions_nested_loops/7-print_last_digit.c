@@ -14,5 +14,11 @@
 
 int print_last_digit(int i)
 {
-	return (i % 10);
+	int i = 0;
+
+	if (i < 0)
+	{
+		i = -1 * i;
+	}
+	_putchar((i % 10) + 48)
 }
