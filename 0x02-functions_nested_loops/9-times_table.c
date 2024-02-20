@@ -29,15 +29,21 @@ void times_table(void)
 			{
 				_putchar((n / 10) + 48);
 				_putchar((n % 10) + 48);
+				if (j > 9)
+				{
+					_putchar(',');
+					_putchar(' ');
+				}
 			}
 			else
 			{
 				_putchar(n + 48);
-			}
-			if (j < 9)
-			{
-				_putchar(',');
-				_putchar(' ');
+				if (j > 9)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+				}
 			}
 		}
 		_putchar('\n');
