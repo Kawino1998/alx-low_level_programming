@@ -35,10 +35,6 @@ void jack_bauer(void)
 					_putchar(':');
 					_putchar(k + 48);
 					_putchar(l + 48);
-					if (l < 9)
-					{
-						_putchar('\n');
-					}
 				}
 			}
 		}
