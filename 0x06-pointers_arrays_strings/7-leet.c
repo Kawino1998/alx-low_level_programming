@@ -6,11 +6,11 @@
 
 /**
  * leet - encodes a string in 1337
- * @z: string to be encoded
+ * @s: string to be encoded
  *
  * Return: the resulting string;
  */
-char *leet(char *z)
+char *leet(char *s)
 {
 	int i;
 
@@ -25,14 +25,14 @@ char *leet(char *z)
 
 	for (i = 0; characters[i] != '\0'; i++)
 	{
-		for (j = 0; z[j] != '\0'; j++)
+		for (j = 0; s[j] != '\0'; j++)
 		{
-			if (z[j] == characters[i])
+			if (s[j] == characters[i])
 			{
-				z[j] = z[j] - numbers[k];
+				s[j] = s[j] - numbers[k];
 			}
 		}
 		k++;
 	}
-	return (z);
+	return (s);
 }
