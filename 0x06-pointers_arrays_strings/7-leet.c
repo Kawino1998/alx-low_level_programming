@@ -34,5 +34,5 @@ char *leet(char *z)
 		}
 		k++;
 	}
-	return z;
+	return (z);
 }
