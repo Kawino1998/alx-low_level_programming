@@ -27,7 +27,7 @@ char *leet(char *z)
 	{
 		for (j = 0; z[j] != '\0'; j++)
 		{
-			if(z[j] == characters[i])
+			if (z[j] == characters[i])
 			{
 				z[j] = z[j] - numbers[k];
 			}
