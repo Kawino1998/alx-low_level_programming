@@ -11,6 +11,7 @@
  * Return: the resulting string;
  */
 char *leet(char *z)
+}
 	int i;
 
 	int j;
