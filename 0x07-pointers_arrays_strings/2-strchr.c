@@ -12,8 +12,7 @@
 char *_strchr(char *s, char c)
 {
 	char *p;
-
-    
+   
 	int i;
     
 	for (i = 0; s[i] != '\0'; i++)
@@ -25,5 +24,8 @@ char *_strchr(char *s, char c)
             		break;
 		}
 	}
-	return (NULL);
+	if (s[i] == '\0')
+	{
+		return (NULL);
+	}
 }
